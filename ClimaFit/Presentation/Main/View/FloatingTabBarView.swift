@@ -21,13 +21,13 @@ struct FloatingTabBarView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(height: 22)
-                        .foregroundColor(selectedTab == tab ? AppTheme.primaryBrown: .gray)
+                        .foregroundColor(selectedTab == tab ? AppTheme.wineRed: .gray)
                 }
                 Spacer()
             }
         }
         .padding()
-        .background(.ultraThinMaterial)
+        .background(Color.white)
         .cornerRadius(30)
         .shadow(color: .black.opacity(0.1), radius: 5, x: 0, y: 2)
         .padding(.horizontal, 24)

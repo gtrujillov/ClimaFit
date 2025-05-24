@@ -15,7 +15,7 @@ public struct AppTheme {
     static let deepChocolate = Color(red: 50/255, green: 30/255, blue: 20/255)
 
     // Radio de esquina
-    static let cornerRadius: CGFloat = 44
+    static let cornerRadius: CGFloat = 15
 }
 
 extension AppTheme {

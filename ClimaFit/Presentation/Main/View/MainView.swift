@@ -17,7 +17,6 @@ struct MainView: View {
             coordinator.view(for: viewModel.selectedTab)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color(.systemGroupedBackground).ignoresSafeArea())
-
             FloatingTabBarView(selectedTab: $viewModel.selectedTab)
         }
     }
