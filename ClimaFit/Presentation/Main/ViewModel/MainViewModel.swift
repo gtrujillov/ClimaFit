@@ -8,12 +8,13 @@
 import Foundation
 
 enum MainTab: Int, CaseIterable {
-    case home, search, settings
+    case home, search, travel, settings
 
     var iconName: String {
         switch self {
         case .home: return "house.fill"
         case .search: return "magnifyingglass"
+        case .travel: return "globe.europe.africa.fill"
         case .settings: return "gearshape.fill"
         }
     }

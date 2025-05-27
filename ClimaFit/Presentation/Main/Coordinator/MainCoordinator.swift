@@ -15,7 +15,9 @@ final class MainCoordinator {
         case .home:
             return HomeCoordinatorImpl().start()
         case .search:
-            return AnyView(Text("🔍 Buscar").font(.title))
+            return SearchCountryCoordinatorImpl().start()
+        case .travel:
+            return AnyView(Text("🚀 Viajes").font(.title))
         case .settings:
             return AnyView(Text("⚙️ Ajustes").font(.title))
         }
